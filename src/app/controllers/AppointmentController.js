@@ -50,6 +50,12 @@ class AppointmentController {
 
     const { provider_id, date } = req.body;
 
+    if (provider_id === req.userId) {
+      return res.status(401).json({
+        error: 'Scheduling is not allowed with yourself',
+      });
+    }
+
     /* Verifica se o usuário é um provider */
 
     const checkIsProvider = await User.findOne({
