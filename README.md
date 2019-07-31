@@ -7,7 +7,7 @@ Intruções de instalação do projeto :
 
 - Clone o repositório
 - Execute o comando yarn install ou npm install na raiz do projeto
-- Execute yarn dev
+- Execute yarn dev na raiz do projeto
 - Acesse a api atráves de um software. Recomendo o https://insomnia.rest/.
 
 Aproveite .... 
