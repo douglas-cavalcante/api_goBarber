@@ -1,4 +1,4 @@
-# api_goBarber
+# api_gobarber
 Backend da aplicação Go Barber
 
 <p> Esse projeto tem como foco a construção de uma api que será usada para um aplicativo de agendamento de serviços. </p>
